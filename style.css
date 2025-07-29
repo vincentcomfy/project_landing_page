@@ -4,15 +4,22 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-left: 10%;
-    padding-right: 10%;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
 }
 
 .top-banner {
     display: flex;
     justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #1f2937;
     color: #f9faf8;
+    max-height: 50px;
+    width: 100%;
 }
 
 .top-banner b {
@@ -25,4 +32,11 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+    gap: 20px;
+}
+
+.banner-links a {
+    text-decoration: none;
+    color: #f9faf8;
+    gap: 5px;
 }
