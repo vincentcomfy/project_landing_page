@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', 'Geneva', Tahoma, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.top-banner b {
+    justify-self: center;
+    align-self: center;
+}
+
+.banner-links ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
