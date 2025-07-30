@@ -1,9 +1,5 @@
 body {
     font-family: 'Roboto', 'Geneva', Tahoma, sans-serif;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }
 
 html, body {
@@ -11,9 +7,16 @@ html, body {
     height: 100%;
 }
 
+.page-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .top-banner {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding-left: 10%;
     padding-right: 10%;
     background-color: #1f2937;
