@@ -1,3 +1,11 @@
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 .content-wrapper {
     display: flex;
     flex-direction: column;
@@ -18,10 +26,28 @@
     gap: 15px;
 }
 
-li {
-    list-style: none;
+.bottom-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-a {
-    text-decoration: none;
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.info-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    gap: 5%;
 }
