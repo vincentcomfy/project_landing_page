@@ -36,6 +36,8 @@ li {
     margin-left: 15%;
     margin-right: 15%;
     gap: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .left-bottom-header {
@@ -52,7 +54,7 @@ li {
 .right-bottom-header img {
     background-color: lightgray;
     width: 450px;
-    height: 200px;
+    height: 200px;2
 }
 
 .information-section {
@@ -89,4 +91,38 @@ li {
 .card p {
     width: 150px;
     text-align: center;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.action-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
