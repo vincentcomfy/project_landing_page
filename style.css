@@ -64,7 +64,7 @@ button {
     justify-content: space-between;
     padding-left: 15%;
     padding-right: 15%;
-    gap: 50px;
+    gap: 31%;
     padding-top: 100px;
     padding-bottom: 100px;
 
@@ -91,12 +91,15 @@ button {
 .right-bottom-header {
     display: flex;
     flex: 1 0 45%;
+    justify-self: flex-end;
 }
 
 .right-bottom-header img {
     background-color: lightgray;
     width: 450px;
-    height: 200px;2
+    height: 200px;
+    justify-self: flex-end;
+    align-self: flex-end;
 }
 
 .information-section {
@@ -105,6 +108,8 @@ button {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .information-title {
@@ -115,17 +120,20 @@ button {
 
 .information-cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     gap: 50px;
     padding-left: 15%;
     padding-right: 15%;
     flex-wrap: nowrap;
+    width: 100%;
+
 }
 
 .card {
     display: flex;
     flex-direction: column;
     max-width: 150px;
+    padding-bottom: 100px;
 }
 
 .card-image {
